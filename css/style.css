@@ -1,0 +1,158 @@
+body{
+    font-family: "Nerko One","cursive";
+    
+}
+
+.font-comfortaa{
+    font-family:  "Comfortaa", "cursive";
+    /* font-size: 10.5px;
+    font-weight: 700;
+    line-height: 10.5px; */
+}
+
+.fs20{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.fs14{
+    font-size: 14px;
+    
+}
+
+.fs10{
+    font-size: 11.5px;
+}
+
+.px30{
+    width: 40px;
+}
+
+.badge-color{
+    background-color: #32383e;
+}
+
+.badge-color-blue-light{
+    background-color: #0DCAF0;
+}
+
+
+header{
+    background-image: url("../images/wraper.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    position: relative;
+}
+
+header::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(39, 43, 48,0.6);
+filter: grayscale(1);
+
+}
+
+
+
+nav{
+    background-color: #3A497B;
+    margin: auto;
+    border-radius: 20px;
+    position: fixed;
+    top: 270px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #09c ;
+    transition: color 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+   color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #09c
+}
+
+
+.ms-end{
+    margin-right: 10%;
+}
+
+
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+/* Home section */
+
+.home{
+    background-color: #272B30;
+    min-height: 90vh;
+}
+
+.game-item{
+    
+    filter: grayscale(0.7);
+    transition: all 400ms ease-in;
+}
+.game-item .desc{
+    max-height: 70px;
+    min-height: 70px;
+}
+
+.game-item .content .badge {
+    display: inline-block;
+    padding: .55em .85em;
+   
+}
+
+.game-item .content p{
+    max-lines: 1;
+}
+.game-item:hover{
+    filter: grayscale(0);
+    transform: scale(1.05,1.05);
+}
+
+
+/* loading */
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #272b30e3;
+    z-index: 20;
+}
+
+.loader{
+    width: 70px;
+    height: 70px;
+}
+
+/* game detail */
+
+.game-detail{
+    position: fixed;
+    background-color: #27282B;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
