@@ -45,7 +45,7 @@ navlinks.forEach((element)=>element.addEventListener("click",function(event){
     ui.changeActive(navlinks,event);
     home.getGames(event.target.textContent).then(function (res){
        
-        ui.displaydata(res);
+        home.displaydata(res);
         gamesCards=document.querySelectorAll(".game-item");
 
         for (let index = 0; index < gamesCards.length; index++) {
